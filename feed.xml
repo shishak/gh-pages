@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>github-pages</title>
+    <link href="https://dziudek.github.io/gh-pages/feed.xml" rel="self" />
+    <link href="https://dziudek.github.io/gh-pages" />
+    <updated>2017-05-26T10:17:48+02:00</updated>
+    <author>
+        <name>Testowy</name>
+    </author>
+    <id>https://dziudek.github.io/gh-pages</id>
+
+    <entry>
+        <title>Lorem Copy Copy</title>
+        <author>
+            <name>Testowy</name>
+        </author>
+        <link href="https://dziudek.github.io/gh-pages/lorem-copy-copy-2.html"/>
+        <id>https://dziudek.github.io/gh-pages/lorem-copy-copy-2.html</id>
+            <category term="lorem"/>
+            <category term="ipsum"/>
+
+        <updated>2017-05-25T12:22:10+02:00</updated>
+            <summary></summary>
+        <content></content>
+
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://dziudek.github.io/gh-pages/media/posts/14/logo.png" />
+    </entry>
+    <entry>
+        <title>Lorem Copy</title>
+        <author>
+            <name>Testowy</name>
+        </author>
+        <link href="https://dziudek.github.io/gh-pages/lorem-copy-2.html"/>
+        <id>https://dziudek.github.io/gh-pages/lorem-copy-2.html</id>
+            <category term="lorem"/>
+
+        <updated>2017-05-22T10:05:13+02:00</updated>
+            <summary></summary>
+        <content></content>
+
+    </entry>
+    <entry>
+        <title>Lorem dolor</title>
+        <author>
+            <name>Testowy</name>
+        </author>
+        <link href="https://dziudek.github.io/gh-pages/lorem.html"/>
+        <id>https://dziudek.github.io/gh-pages/lorem.html</id>
+
+        <updated>2017-05-22T14:02:01+02:00</updated>
+            <summary></summary>
+        <content></content>
+
+    </entry>
+    <entry>
+        <title>Dolor sit amet</title>
+        <author>
+            <name>Testowy</name>
+        </author>
+        <link href="https://dziudek.github.io/gh-pages/dolor-sit-amet.html"/>
+        <id>https://dziudek.github.io/gh-pages/dolor-sit-amet.html</id>
+
+        <updated>2017-05-14T21:19:11+02:00</updated>
+            <summary></summary>
+        <content></content>
+
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://dziudek.github.io/gh-pages/media/posts/2/logo.png" />
+    </entry>
+</feed>
