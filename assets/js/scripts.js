@@ -3,35 +3,97 @@
     $(function () {
         $('.js-navbar__toggle').on('click', function () {
             $('.js-navbar').toggleClass('is-opened');
+            $('.js-navbar__toggle').attr('aria-expanded', $('.js-navbar').hasClass('is-opened'));
             return false;
         });
-    });
 
-    // iOS :hover fix
-    document.addEventListener("touchend", function() {});
+        $('.js-navbar a').each(function(i, link) {
+            link = $(link);
 
-    // EU Cookie Law Bar
-    $(window).on("load", function () {
-        var cookieBar = $('.js-cookie-bar');
-
-        if (!cookieBar.length) {
-            return;
-        }
-
-        var cookieBarClose = cookieBar.find('.cookie-bar__close');
-
-        cookieBarClose.on('click', function (event) {
-            event.preventDefault();
-            localStorage.setItem('theme-cookie-bar', true);
-            cookieBar.removeClass('cookie-bar--is-sticky');
+            link.on('click', function(e) {
+                if(
+                    link.parent().hasClass('has-submenu') &&
+                    $('.js-navbar__toggle').attr('aria-expanded') === 'true' &&
+                    link.parent().attr('aria-expanded') !== 'true'
+                ) {
+                    e.preventDefault();
+                    link.parent().attr('aria-expanded', 'true');
+                }
+            });
         });
-
-        if (!localStorage.getItem('theme-cookie-bar')) {
-            cookieBar.addClass('cookie-bar--is-sticky');
-        }
     });
+	
+	 // iOS :hover fix
+    document.addEventListener("touchend", function() {});
+	
+	// EU Cookie Law Bar
+	$(window).on("load", function () {
+		var cookieBar = $('.js-cookie-bar');
+		
+		if(!cookieBar.length) {
+			return;	
+		}
+		
+		var cookieBarClose = cookieBar.find('.cookie-bar__close');
+		
+		cookieBarClose.on('click', function(event) {
+			event.preventDefault();
+			localStorage.setItem('theme-cookie-bar', true);	
+			cookieBar.removeClass('is-sticky');
+		});
+		
+		if(!localStorage.getItem('theme-cookie-bar')) {
+			cookieBar.addClass('is-sticky');	
+		}
+	});	
+	
+	// Sticky menu animation
+	$(function($) {
+		var menu = $('.js-top');
+		
+		if(!menu.length) {
+			return;
+		}
+		
+		var previousScroll = $(window).scrollTop();
+		var menuHeight = menu.outerHeight();
+		var menuTop = 0;
+		var headerHeight = menu.outerHeight(true);
+		
+		$(window).on('scroll', function() {
+			var currentScroll = $(window).scrollTop();
+			var diff = currentScroll - previousScroll;
+			menuTop -= diff;
+			
+			if(menuTop < -menuHeight) {
+				menuTop = -menuHeight;
+			}
+			
+			if(menuTop >= 0) {
+				menuTop = 0;
+			}
+			
+			if(currentScroll <= headerHeight + 50) {
+				menu.removeClass('is-sticky');
+				menu.parent().css('padding-top', "0px");
+                menu.find('.navbar__menu').css('margin-top', 0);
+			} else {
+				menu.addClass('is-sticky');
+				menu.parent().css('padding-top', headerHeight + "px");
+				menu.find('.navbar__menu').css('margin-top', (headerHeight / 2) + "px");
+			}
 
-    // Mainmenu improvements
+            if (currentScroll <= 30) {
+                menuTop = 0;
+            }
+			
+			menu.css('top', menuTop + 'px');
+			
+			previousScroll = currentScroll;
+		});
+	});
+	
+	 // Mainmenu improvements
     $(function ($) {
         var mainmenu = $('.navbar__menu');
         var level0 = mainmenu.children('li');
@@ -84,83 +146,40 @@
             }
         }
     });
+	
+	// Share buttons pop-up
+	$(function () {
+		// link selector and pop-up window size
+		var Config = {
+			Link: ".js-share",
+			Width: 500,
+			Height: 500
+		};
+		// add handler links
+		var slink = document.querySelectorAll(Config.Link);
+		for (var a = 0; a < slink.length; a++) {
+			slink[a].onclick = PopupHandler;
+		}
+		// create popup
+		function PopupHandler(e) {
+			e = (e ? e : window.event);
+			var t = (e.target ? e.target : e.srcElement);
+			// popup position
+			var px = Math.floor(((screen.availWidth || 1024) - Config.Width) / 2),
+				py = Math.floor(((screen.availHeight || 700) - Config.Height) / 2);
+			// open popup
+			var link_href = t.href ? t.href : t.parentNode.href;
+			var popup = window.open(link_href, "social",
+				"width=" + Config.Width + ",height=" + Config.Height +
+				",left=" + px + ",top=" + py +
+				",location=0,menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1");
+			if (popup) {
+				popup.focus();
+				if (e.preventDefault) e.preventDefault();
+				e.returnValue = false;
+			}
 
-    // Sticky menu animation
-    $(function ($) {
-        var menu = $('.js-top');
-
-        if (!menu.length || !menu.hasClass('is-sticky')) {
-            return;
-        }
-
-        var previousScroll = $(window).scrollTop();
-        var menuHeight = menu.outerHeight();
-        var menuTop = 0;
-
-        $(window).on('scroll', function () {
-            var currentScroll = $(window).scrollTop();
-            var diff = currentScroll - previousScroll;
-            menuTop -= diff / 2;
-
-            if (menuTop < -menuHeight) {
-                menuTop = -menuHeight;
-            }
-
-            if (menuTop >= 0) {
-                menuTop = 0;
-            }
-
-            if (currentScroll <= 100) {
-                menu.removeClass('has-bg');
-            } else {
-                menu.addClass('has-bg');
-            }
-
-            if (currentScroll <= 30) {
-                menuTop = 0;
-            }
-
-            menu.css('top', menuTop + 'px');
-
-            previousScroll = currentScroll;
-        });
-    });
-
-
-
-    // Share buttons pop-up
-    $(function () {
-        // link selector and pop-up window size
-        var Config = {
-            Link: ".js-share",
-            Width: 500,
-            Height: 500
-        };
-        // add handler links
-        var slink = document.querySelectorAll(Config.Link);
-        for (var a = 0; a < slink.length; a++) {
-            slink[a].onclick = PopupHandler;
-        }
-        // create popup
-        function PopupHandler(e) {
-            e = (e ? e : window.event);
-            var t = (e.target ? e.target : e.srcElement);
-            // popup position
-            var px = Math.floor(((screen.availWidth || 1024) - Config.Width) / 2),
-                py = Math.floor(((screen.availHeight || 700) - Config.Height) / 2);
-            // open popup
-            var link_href = t.href ? t.href : t.parentNode.href;
-            var popup = window.open(link_href, "social",
-                "width=" + Config.Width + ",height=" + Config.Height +
-                ",left=" + px + ",top=" + py +
-                ",location=0,menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1");
-            if (popup) {
-                popup.focus();
-                if (e.preventDefault) e.preventDefault();
-                e.returnValue = false;
-            }
-
-            return !!popup;
-        }
-    });
+			return !!popup;
+		}
+	});
 })(jQuery);

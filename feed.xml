@@ -3,12 +3,38 @@
     <title>github-pages</title>
     <link href="https://dziudek.github.io/gh-pages/feed.xml" rel="self" />
     <link href="https://dziudek.github.io/gh-pages" />
-    <updated>2017-05-26T10:18:04+02:00</updated>
+    <updated>2017-05-28T10:53:31+02:00</updated>
     <author>
         <name>Testowy</name>
     </author>
     <id>https://dziudek.github.io/gh-pages</id>
 
+    <entry>
+        <title>XXX</title>
+        <author>
+            <name>Testowy</name>
+        </author>
+        <link href="https://dziudek.github.io/gh-pages/xxx.html"/>
+        <id>https://dziudek.github.io/gh-pages/xxx.html</id>
+
+        <updated>2017-05-28T10:24:51+02:00</updated>
+            <summary></summary>
+        <content></content>
+
+    </entry>
+    <entry>
+        <title>Dolor sit amet</title>
+        <author>
+            <name>Testowy</name>
+        </author>
+        <link href="https://dziudek.github.io/gh-pages/dolor-sit-amet-2.html"/>
+        <id>https://dziudek.github.io/gh-pages/dolor-sit-amet-2.html</id>
+
+        <updated>2017-05-28T10:24:46+02:00</updated>
+            <summary></summary>
+        <content></content>
+
+    </entry>
     <entry>
         <title>Lorem Copy Copy</title>
         <author>
@@ -51,19 +77,5 @@
             <summary></summary>
         <content></content>
 
-    </entry>
-    <entry>
-        <title>Dolor sit amet</title>
-        <author>
-            <name>Testowy</name>
-        </author>
-        <link href="https://dziudek.github.io/gh-pages/dolor-sit-amet.html"/>
-        <id>https://dziudek.github.io/gh-pages/dolor-sit-amet.html</id>
-
-        <updated>2017-05-14T21:19:11+02:00</updated>
-            <summary></summary>
-        <content></content>
-
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://dziudek.github.io/gh-pages/media/posts/2/logo.png" />
     </entry>
 </feed>
