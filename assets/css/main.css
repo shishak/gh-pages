@@ -716,14 +716,16 @@ textarea {
 }
 
 @media all and (min-width: 56.25em) {
-  .navbar__menu li:hover > ul {
+  .navbar__menu li:hover > ul,
+  .navbar__menu li[aria-expanded="true"] > ul {
     opacity: 1;
     -webkit-transform: translate(0, 0);
         -ms-transform: translate(0, 0);
             transform: translate(0, 0);
     visibility: visible;
   }
-  .navbar__menu li:hover > ul li {
+  .navbar__menu li:hover > ul li,
+  .navbar__menu li[aria-expanded="true"] > ul li {
     margin: 0;
     display: block;
   }
@@ -938,7 +940,8 @@ textarea {
           transform: translateY(-20%);
 }
 
-.is-opened > ul li:hover > ul {
+.is-opened > ul li:hover > ul,
+.is-opened > ul li[aria-expanded="true"] > ul {
   height: auto;
   opacity: 1;
   -webkit-transform: translateY(0);
