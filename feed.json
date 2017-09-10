@@ -1,1 +1,85 @@
-{ "version": "https://jsonfeed.org/version/1", "title": "github-pages", "description": "", "home_page_url": "https://dziudek.github.io/gh-pages", "feed_url": "https://dziudek.github.io/gh-pages/feed.json", "user_comment": "", "author": { "name": "Testowy" }, "items": [ { "id": "https://dziudek.github.io/gh-pages/xxx.html", "url": "https://dziudek.github.io/gh-pages/xxx.html", "title": "Lorem ipsum", "author": { "name": "Testowy" }, "tags": [ ], "date_published": "2017-06-27T18:18:59+02:00", "date_modified": "2017-06-19T09:54:33+02:00" }, { "id": "https://dziudek.github.io/gh-pages/dolor-sit-amet-2.html", "url": "https://dziudek.github.io/gh-pages/dolor-sit-amet-2.html", "title": "Dolor sit amet", "author": { "name": "Testowy" }, "tags": [ ], "date_published": "2017-06-27T18:18:59+02:00", "date_modified": "2017-06-19T09:54:53+02:00" }, { "id": "https://dziudek.github.io/gh-pages/lorem-copy-copy-2.html", "url": "https://dziudek.github.io/gh-pages/lorem-copy-copy-2.html", "title": "Lorem Copy Copy", "image": "https://dziudek.github.io/gh-pages/media/posts/14/logo.png", "author": { "name": "Testowy" }, "tags": [ ], "date_published": "2017-06-27T18:18:59+02:00", "date_modified": "2017-05-25T12:22:10+02:00" }, { "id": "https://dziudek.github.io/gh-pages/lorem-copy-2.html", "url": "https://dziudek.github.io/gh-pages/lorem-copy-2.html", "title": "Lorem Copy", "author": { "name": "Testowy" }, "tags": [ ], "date_published": "2017-06-27T18:18:59+02:00", "date_modified": "2017-05-22T10:05:13+02:00" }, { "id": "https://dziudek.github.io/gh-pages/lorem.html", "url": "https://dziudek.github.io/gh-pages/lorem.html", "title": "Lorem dolor", "author": { "name": "Testowy" }, "tags": [ ], "date_published": "2017-06-27T18:18:59+02:00", "date_modified": "2017-05-22T14:02:01+02:00" } ] }
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "github-pages",
+    "description": "",
+    "home_page_url": "http://www.static-websites.com",
+    "feed_url": "http://www.static-websites.com/feed.json",
+    "user_comment": "",
+    "icon": "http://www.static-websites.com/media/website/logo.png",
+    "author": {
+        "name": "Testowy"
+    },
+    "items": [
+        {
+            "id": "http://www.static-websites.com/amp-2/",
+            "url": "http://www.static-websites.com/amp-2/",
+            "title": "Lorem ipsum",
+            "image": "http://www.static-websites.com/media/posts/16/logo.png",
+            "author": {
+                "name": "Test author"
+            },
+            "tags": [
+                   "woow",
+                   "rotfl",
+                   "lol"
+            ],
+            "date_published": "2017-05-28T10:24:51+02:00",
+            "date_modified": "2017-08-09T17:47:37+02:00"
+        },
+        {
+            "id": "http://www.static-websites.com/dolor-sit-amet-2/",
+            "url": "http://www.static-websites.com/dolor-sit-amet-2/",
+            "title": "Dolor sit amet",
+            "author": {
+                "name": "Testowy"
+            },
+            "tags": [
+                   "woow",
+                   "rotfl",
+                   "lol"
+            ],
+            "date_published": "2017-05-28T10:24:46+02:00",
+            "date_modified": "2017-07-29T14:19:44+02:00"
+        },
+        {
+            "id": "http://www.static-websites.com/lorem-copy-copy-2/",
+            "url": "http://www.static-websites.com/lorem-copy-copy-2/",
+            "title": "Lorem Copy Copy",
+            "image": "http://www.static-websites.com/media/posts/14/logo.png",
+            "author": {
+                "name": "Testowy"
+            },
+            "tags": [
+                   "woow",
+                   "rotfl",
+                   "lol"
+            ],
+            "date_published": "2017-05-18T22:15:00+02:00",
+            "date_modified": "2017-07-29T14:19:37+02:00"
+        },
+        {
+            "id": "http://www.static-websites.com/lorem-copy-2/",
+            "url": "http://www.static-websites.com/lorem-copy-2/",
+            "title": "Lorem Copy",
+            "author": {
+                "name": "Testowy"
+            },
+            "tags": [
+            ],
+            "date_published": "2017-05-18T11:15:09+02:00",
+            "date_modified": "2017-05-22T10:05:13+02:00"
+        },
+        {
+            "id": "http://www.static-websites.com/lorem/",
+            "url": "http://www.static-websites.com/lorem/",
+            "title": "Lorem dolor",
+            "author": {
+                "name": "Testowy"
+            },
+            "tags": [
+            ],
+            "date_published": "2017-05-17T20:55:31+02:00",
+            "date_modified": "2017-05-22T14:02:01+02:00"
+        }
+    ]
+}

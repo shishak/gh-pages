@@ -1,78 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>github-pages</title>
-    <link href="https://dziudek.github.io/gh-pages/feed.xml" rel="self" />
-    <link href="https://dziudek.github.io/gh-pages" />
-    <updated>2017-06-27T18:18:59+02:00</updated>
+    <link href="http://www.static-websites.com/feed.xml" rel="self" />
+    <link href="http://www.static-websites.com" />
+    <updated>2017-09-10T08:48:15+02:00</updated>
     <author>
         <name>Testowy</name>
     </author>
-    <id>https://dziudek.github.io/gh-pages</id>
+    <id>http://www.static-websites.com</id>
 
     <entry>
         <title>Lorem ipsum</title>
         <author>
-            <name>Testowy</name>
+            <name>Test author</name>
         </author>
-        <link href="https://dziudek.github.io/gh-pages/xxx.html"/>
-        <id>https://dziudek.github.io/gh-pages/xxx.html</id>
+        <link href="http://www.static-websites.com/amp-2/"/>
+        <id>http://www.static-websites.com/amp-2/</id>
+            <category term="woow"/>
+            <category term="rotfl"/>
+            <category term="lol"/>
 
-        <updated>2017-06-19T09:54:33+02:00</updated>
+        <updated>2017-08-09T17:47:37+02:00</updated>
             <summary></summary>
         <content></content>
-
     </entry>
     <entry>
         <title>Dolor sit amet</title>
         <author>
             <name>Testowy</name>
         </author>
-        <link href="https://dziudek.github.io/gh-pages/dolor-sit-amet-2.html"/>
-        <id>https://dziudek.github.io/gh-pages/dolor-sit-amet-2.html</id>
+        <link href="http://www.static-websites.com/dolor-sit-amet-2/"/>
+        <id>http://www.static-websites.com/dolor-sit-amet-2/</id>
+            <category term="woow"/>
+            <category term="rotfl"/>
+            <category term="lol"/>
 
-        <updated>2017-06-19T09:54:53+02:00</updated>
+        <updated>2017-07-29T14:19:44+02:00</updated>
             <summary></summary>
         <content></content>
-
     </entry>
     <entry>
         <title>Lorem Copy Copy</title>
         <author>
             <name>Testowy</name>
         </author>
-        <link href="https://dziudek.github.io/gh-pages/lorem-copy-copy-2.html"/>
-        <id>https://dziudek.github.io/gh-pages/lorem-copy-copy-2.html</id>
+        <link href="http://www.static-websites.com/lorem-copy-copy-2/"/>
+        <id>http://www.static-websites.com/lorem-copy-copy-2/</id>
+            <category term="woow"/>
+            <category term="rotfl"/>
+            <category term="lol"/>
 
-        <updated>2017-05-25T12:22:10+02:00</updated>
+        <updated>2017-07-29T14:19:37+02:00</updated>
             <summary></summary>
         <content></content>
-
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://dziudek.github.io/gh-pages/media/posts/14/logo.png" />
     </entry>
     <entry>
         <title>Lorem Copy</title>
         <author>
             <name>Testowy</name>
         </author>
-        <link href="https://dziudek.github.io/gh-pages/lorem-copy-2.html"/>
-        <id>https://dziudek.github.io/gh-pages/lorem-copy-2.html</id>
+        <link href="http://www.static-websites.com/lorem-copy-2/"/>
+        <id>http://www.static-websites.com/lorem-copy-2/</id>
 
         <updated>2017-05-22T10:05:13+02:00</updated>
             <summary></summary>
         <content></content>
-
     </entry>
     <entry>
         <title>Lorem dolor</title>
         <author>
             <name>Testowy</name>
         </author>
-        <link href="https://dziudek.github.io/gh-pages/lorem.html"/>
-        <id>https://dziudek.github.io/gh-pages/lorem.html</id>
+        <link href="http://www.static-websites.com/lorem/"/>
+        <id>http://www.static-websites.com/lorem/</id>
 
         <updated>2017-05-22T14:02:01+02:00</updated>
             <summary></summary>
         <content></content>
-
     </entry>
 </feed>
