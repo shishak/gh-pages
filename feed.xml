@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>github-pages</title>
-    <link href="http://www.static-websites.com/feed.xml" rel="self" />
-    <link href="http://www.static-websites.com" />
-    <updated>2017-09-10T08:48:15+02:00</updated>
+    <link href="https://dziudek.github.io/page/feed.xml" rel="self" />
+    <link href="https://dziudek.github.io/page" />
+    <updated>2017-10-25T12:59:20+02:00</updated>
     <author>
         <name>Testowy</name>
     </author>
-    <id>http://www.static-websites.com</id>
+    <id>https://dziudek.github.io/page</id>
 
     <entry>
         <title>Lorem ipsum</title>
         <author>
             <name>Test author</name>
         </author>
-        <link href="http://www.static-websites.com/amp-2/"/>
-        <id>http://www.static-websites.com/amp-2/</id>
+        <link href="https://dziudek.github.io/page/amp-2/"/>
+        <id>https://dziudek.github.io/page/amp-2/</id>
             <category term="woow"/>
             <category term="rotfl"/>
             <category term="lol"/>
@@ -29,8 +29,8 @@
         <author>
             <name>Testowy</name>
         </author>
-        <link href="http://www.static-websites.com/dolor-sit-amet-2/"/>
-        <id>http://www.static-websites.com/dolor-sit-amet-2/</id>
+        <link href="https://dziudek.github.io/page/dolor-sit-amet-2/"/>
+        <id>https://dziudek.github.io/page/dolor-sit-amet-2/</id>
             <category term="woow"/>
             <category term="rotfl"/>
             <category term="lol"/>
@@ -44,8 +44,8 @@
         <author>
             <name>Testowy</name>
         </author>
-        <link href="http://www.static-websites.com/lorem-copy-copy-2/"/>
-        <id>http://www.static-websites.com/lorem-copy-copy-2/</id>
+        <link href="https://dziudek.github.io/page/lorem-copy-copy-2/"/>
+        <id>https://dziudek.github.io/page/lorem-copy-copy-2/</id>
             <category term="woow"/>
             <category term="rotfl"/>
             <category term="lol"/>
@@ -59,8 +59,8 @@
         <author>
             <name>Testowy</name>
         </author>
-        <link href="http://www.static-websites.com/lorem-copy-2/"/>
-        <id>http://www.static-websites.com/lorem-copy-2/</id>
+        <link href="https://dziudek.github.io/page/lorem-copy-2/"/>
+        <id>https://dziudek.github.io/page/lorem-copy-2/</id>
 
         <updated>2017-05-22T10:05:13+02:00</updated>
             <summary></summary>
@@ -71,8 +71,8 @@
         <author>
             <name>Testowy</name>
         </author>
-        <link href="http://www.static-websites.com/lorem/"/>
-        <id>http://www.static-websites.com/lorem/</id>
+        <link href="https://dziudek.github.io/page/lorem/"/>
+        <id>https://dziudek.github.io/page/lorem/</id>
 
         <updated>2017-05-22T14:02:01+02:00</updated>
             <summary></summary>

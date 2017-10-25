@@ -2,19 +2,19 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "github-pages",
     "description": "",
-    "home_page_url": "http://www.static-websites.com",
-    "feed_url": "http://www.static-websites.com/feed.json",
+    "home_page_url": "https://dziudek.github.io/page",
+    "feed_url": "https://dziudek.github.io/page/feed.json",
     "user_comment": "",
-    "icon": "http://www.static-websites.com/media/website/logo.png",
+    "icon": "https://dziudek.github.io/page/media/website/logo.png",
     "author": {
         "name": "Testowy"
     },
     "items": [
         {
-            "id": "http://www.static-websites.com/amp-2/",
-            "url": "http://www.static-websites.com/amp-2/",
+            "id": "https://dziudek.github.io/page/amp-2/",
+            "url": "https://dziudek.github.io/page/amp-2/",
             "title": "Lorem ipsum",
-            "image": "http://www.static-websites.com/media/posts/16/logo.png",
+            "image": "https://dziudek.github.io/page/media/posts/16/logo.png",
             "author": {
                 "name": "Test author"
             },
@@ -27,8 +27,8 @@
             "date_modified": "2017-08-09T17:47:37+02:00"
         },
         {
-            "id": "http://www.static-websites.com/dolor-sit-amet-2/",
-            "url": "http://www.static-websites.com/dolor-sit-amet-2/",
+            "id": "https://dziudek.github.io/page/dolor-sit-amet-2/",
+            "url": "https://dziudek.github.io/page/dolor-sit-amet-2/",
             "title": "Dolor sit amet",
             "author": {
                 "name": "Testowy"
@@ -42,10 +42,10 @@
             "date_modified": "2017-07-29T14:19:44+02:00"
         },
         {
-            "id": "http://www.static-websites.com/lorem-copy-copy-2/",
-            "url": "http://www.static-websites.com/lorem-copy-copy-2/",
+            "id": "https://dziudek.github.io/page/lorem-copy-copy-2/",
+            "url": "https://dziudek.github.io/page/lorem-copy-copy-2/",
             "title": "Lorem Copy Copy",
-            "image": "http://www.static-websites.com/media/posts/14/logo.png",
+            "image": "https://dziudek.github.io/page/media/posts/14/logo.png",
             "author": {
                 "name": "Testowy"
             },
@@ -58,8 +58,8 @@
             "date_modified": "2017-07-29T14:19:37+02:00"
         },
         {
-            "id": "http://www.static-websites.com/lorem-copy-2/",
-            "url": "http://www.static-websites.com/lorem-copy-2/",
+            "id": "https://dziudek.github.io/page/lorem-copy-2/",
+            "url": "https://dziudek.github.io/page/lorem-copy-2/",
             "title": "Lorem Copy",
             "author": {
                 "name": "Testowy"
@@ -70,8 +70,8 @@
             "date_modified": "2017-05-22T10:05:13+02:00"
         },
         {
-            "id": "http://www.static-websites.com/lorem/",
-            "url": "http://www.static-websites.com/lorem/",
+            "id": "https://dziudek.github.io/page/lorem/",
+            "url": "https://dziudek.github.io/page/lorem/",
             "title": "Lorem dolor",
             "author": {
                 "name": "Testowy"
