@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>high-altitude-trekkerz</title>
-    <link href="https://ahd1992.github.io/gh-pages/feed.xml" rel="self" />
-    <link href="https://ahd1992.github.io/gh-pages" />
-    <updated>2017-10-26T10:13:36+02:00</updated>
+    <link href="https://dziudek.github.io/gh-pages/feed.xml" rel="self" />
+    <link href="https://dziudek.github.io/gh-pages" />
+    <updated>2017-10-26T10:13:59+02:00</updated>
     <author>
         <name>Editor</name>
     </author>
-    <id>https://ahd1992.github.io/gh-pages</id>
+    <id>https://dziudek.github.io/gh-pages</id>
 
     <entry>
         <title>dsf</title>
         <author>
             <name>Editor</name>
         </author>
-        <link href="https://ahd1992.github.io/gh-pages/dsf.html"/>
-        <id>https://ahd1992.github.io/gh-pages/dsf.html</id>
+        <link href="https://dziudek.github.io/gh-pages/dsf.html"/>
+        <id>https://dziudek.github.io/gh-pages/dsf.html</id>
 
         <updated>2017-10-25T17:37:22+02:00</updated>
             <summary></summary>
