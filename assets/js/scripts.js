@@ -180,13 +180,25 @@
         }
     });
 
-    // Post image HTML structure 
-    (function($) {
-    $('.post__image--full, .post__image--wide').each(function(i, img) {
-        img = $(img);
-        if(img.parent().prop('tagName') !== 'FIGURE') {
-            img.wrap('<figure></figure>');
+    // Post filters
+    $(function () {
+        if(!$('.filter').length) {
+            return;
         }
+        $('.filter').find('.filter__item').each(function(i, item) {
+            item = $(item);
+
+            item.on('click', function(e) {
+                e.preventDefault();
+                $('.filter').find('.filter__item').removeClass('filter__item--active');
+                item.addClass('filter__item--active');
+
+                $('.card').removeClass('card--hidden');
+
+                if(item.attr('href') !== '#') {
+                    $('.card').not('[data-tags*="' + item.text() + ' "]').addClass('card--hidden');
+                }
+            });
+        });
     });
-});
 })(jQuery);
