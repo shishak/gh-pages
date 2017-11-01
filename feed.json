@@ -1,26 +1,97 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "high-altitude-trekkerz",
+    "title": "github-pages",
     "description": "",
-    "home_page_url": "https://dziudek.github.io/gh-pages",
-    "feed_url": "https://dziudek.github.io/gh-pages/feed.json",
+    "home_page_url": "https://dziudek.github.io/page",
+    "feed_url": "https://dziudek.github.io/page/feed.json",
     "user_comment": "",
+    "icon": "https://dziudek.github.io/page/media/website/logo.png",
     "author": {
-        "name": "Editor"
+        "name": "Testowy"
     },
     "items": [
         {
-            "id": "https://dziudek.github.io/gh-pages/dsf.html",
-            "url": "https://dziudek.github.io/gh-pages/dsf.html",
-            "title": "dsf",
-            "content_html": "dsfd sdhfhsdgfkh ksdfkshdkfhsdkjf s,djf,sdjnf",
+            "id": "https://dziudek.github.io/page/another-test/",
+            "url": "https://dziudek.github.io/page/another-test/",
+            "title": "Another test ;)",
             "author": {
-                "name": "Editor"
+                "name": "Testowy"
             },
             "tags": [
             ],
-            "date_published": "2017-10-22T19:14:31+02:00",
-            "date_modified": "2017-10-25T17:37:22+02:00"
+            "date_published": "2017-11-01T10:52:59+01:00",
+            "date_modified": "2017-11-01T10:52:59+01:00"
+        },
+        {
+            "id": "https://dziudek.github.io/page/amp-2/",
+            "url": "https://dziudek.github.io/page/amp-2/",
+            "title": "Lorem ipsum",
+            "image": "https://dziudek.github.io/page/media/posts/16/logo.png",
+            "author": {
+                "name": "Test author"
+            },
+            "tags": [
+                   "woow",
+                   "rotfl",
+                   "lol"
+            ],
+            "date_published": "2017-05-28T10:24:51+02:00",
+            "date_modified": "2017-08-09T17:47:37+02:00"
+        },
+        {
+            "id": "https://dziudek.github.io/page/dolor-sit-amet-2/",
+            "url": "https://dziudek.github.io/page/dolor-sit-amet-2/",
+            "title": "Dolor sit amet",
+            "author": {
+                "name": "Testowy"
+            },
+            "tags": [
+                   "woow",
+                   "rotfl",
+                   "lol"
+            ],
+            "date_published": "2017-05-28T10:24:46+02:00",
+            "date_modified": "2017-07-29T14:19:44+02:00"
+        },
+        {
+            "id": "https://dziudek.github.io/page/lorem-copy-copy-2/",
+            "url": "https://dziudek.github.io/page/lorem-copy-copy-2/",
+            "title": "Lorem Copy Copy",
+            "image": "https://dziudek.github.io/page/media/posts/14/logo.png",
+            "author": {
+                "name": "Testowy"
+            },
+            "tags": [
+                   "woow",
+                   "rotfl",
+                   "lol"
+            ],
+            "date_published": "2017-05-18T22:15:00+02:00",
+            "date_modified": "2017-07-29T14:19:37+02:00"
+        },
+        {
+            "id": "https://dziudek.github.io/page/lorem-copy-2/",
+            "url": "https://dziudek.github.io/page/lorem-copy-2/",
+            "title": "Lorem Copy",
+            "author": {
+                "name": "Testowy"
+            },
+            "tags": [
+            ],
+            "date_published": "2017-05-18T11:15:09+02:00",
+            "date_modified": "2017-05-22T10:05:13+02:00"
+        },
+        {
+            "id": "https://dziudek.github.io/page/lorem/",
+            "url": "https://dziudek.github.io/page/lorem/",
+            "title": "Lorem dolor",
+            "author": {
+                "name": "Testowy"
+            },
+            "tags": [
+            ],
+            "date_published": "2017-05-17T20:55:31+02:00",
+            "date_modified": "2017-05-22T14:02:01+02:00"
         }
     ]
 }

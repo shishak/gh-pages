@@ -1,28 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>high-altitude-trekkerz</title>
-    <link href="https://dziudek.github.io/gh-pages/feed.xml" rel="self" />
-    <link href="https://dziudek.github.io/gh-pages" />
-    <updated>2017-10-26T12:19:01+02:00</updated>
+    <title>github-pages</title>
+    <link href="https://dziudek.github.io/page/feed.xml" rel="self" />
+    <link href="https://dziudek.github.io/page" />
+    <updated>2017-11-01T11:27:10+01:00</updated>
     <author>
-        <name>Editor</name>
+        <name>Testowy</name>
     </author>
-    <id>https://dziudek.github.io/gh-pages</id>
+    <id>https://dziudek.github.io/page</id>
 
     <entry>
-        <title>dsf</title>
+        <title>Another test ;)</title>
         <author>
-            <name>Editor</name>
+            <name>Testowy</name>
         </author>
-        <link href="https://dziudek.github.io/gh-pages/dsf.html"/>
-        <id>https://dziudek.github.io/gh-pages/dsf.html</id>
+        <link href="https://dziudek.github.io/page/another-test/"/>
+        <id>https://dziudek.github.io/page/another-test/</id>
 
-        <updated>2017-10-25T17:37:22+02:00</updated>
+        <updated>2017-11-01T10:52:59+01:00</updated>
             <summary></summary>
-        <content type="html">
-            <![CDATA[
-                dsfd sdhfhsdgfkh ksdfkshdkfhsdkjf s,djf,sdjnf
-            ]]>
-        </content>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Lorem ipsum</title>
+        <author>
+            <name>Test author</name>
+        </author>
+        <link href="https://dziudek.github.io/page/amp-2/"/>
+        <id>https://dziudek.github.io/page/amp-2/</id>
+            <category term="woow"/>
+            <category term="rotfl"/>
+            <category term="lol"/>
+
+        <updated>2017-08-09T17:47:37+02:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Dolor sit amet</title>
+        <author>
+            <name>Testowy</name>
+        </author>
+        <link href="https://dziudek.github.io/page/dolor-sit-amet-2/"/>
+        <id>https://dziudek.github.io/page/dolor-sit-amet-2/</id>
+            <category term="woow"/>
+            <category term="rotfl"/>
+            <category term="lol"/>
+
+        <updated>2017-07-29T14:19:44+02:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Lorem Copy Copy</title>
+        <author>
+            <name>Testowy</name>
+        </author>
+        <link href="https://dziudek.github.io/page/lorem-copy-copy-2/"/>
+        <id>https://dziudek.github.io/page/lorem-copy-copy-2/</id>
+            <category term="woow"/>
+            <category term="rotfl"/>
+            <category term="lol"/>
+
+        <updated>2017-07-29T14:19:37+02:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Lorem Copy</title>
+        <author>
+            <name>Testowy</name>
+        </author>
+        <link href="https://dziudek.github.io/page/lorem-copy-2/"/>
+        <id>https://dziudek.github.io/page/lorem-copy-2/</id>
+
+        <updated>2017-05-22T10:05:13+02:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Lorem dolor</title>
+        <author>
+            <name>Testowy</name>
+        </author>
+        <link href="https://dziudek.github.io/page/lorem/"/>
+        <id>https://dziudek.github.io/page/lorem/</id>
+
+        <updated>2017-05-22T14:02:01+02:00</updated>
+            <summary></summary>
+        <content></content>
     </entry>
 </feed>
