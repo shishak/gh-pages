@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "github-pages",
+    "title": "Github Pages",
     "description": "",
     "home_page_url": "https://dziudek.github.io/page",
     "feed_url": "https://dziudek.github.io/page/feed.json",
@@ -33,10 +33,11 @@
             "tags": [
                    "woow",
                    "rotfl",
+                   "mmmm",
                    "lol"
             ],
             "date_published": "2017-05-28T10:24:51+02:00",
-            "date_modified": "2017-08-09T17:47:37+02:00"
+            "date_modified": "2017-11-16T13:15:52+01:00"
         },
         {
             "id": "https://dziudek.github.io/page/dolor-sit-amet-2/",

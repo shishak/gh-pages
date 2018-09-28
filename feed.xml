@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>github-pages</title>
+    <title>Github Pages</title>
     <link href="https://dziudek.github.io/page/feed.xml" rel="self" />
     <link href="https://dziudek.github.io/page" />
-    <updated>2017-11-01T11:28:19+01:00</updated>
+    <updated>2018-09-28T18:47:52+02:00</updated>
     <author>
         <name>Testowy</name>
     </author>
@@ -30,9 +30,10 @@
         <id>https://dziudek.github.io/page/amp-2/</id>
             <category term="woow"/>
             <category term="rotfl"/>
+            <category term="mmmm"/>
             <category term="lol"/>
 
-        <updated>2017-08-09T17:47:37+02:00</updated>
+        <updated>2017-11-16T13:15:52+01:00</updated>
             <summary></summary>
         <content></content>
     </entry>
