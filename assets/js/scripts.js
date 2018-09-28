@@ -6,46 +6,49 @@
             $('.js-navbar__toggle').attr('aria-expanded', $('.js-navbar').hasClass('is-opened'));
             return false;
         });
-
         $('.js-navbar a').each(function(i, link) {
             link = $(link);
-
-            link.on('click', function(e) {
+            link.on('touchend', function(e) {
                 if(
                     link.parent().hasClass('has-submenu') &&
-                    $('.js-navbar__toggle').attr('aria-expanded') === 'true' &&
+                    $('.js-navbar').hasClass('is-opened') &&
                     link.parent().attr('aria-expanded') !== 'true'
                 ) {
                     e.preventDefault();
+                    e.stopPropagation();
                     link.parent().attr('aria-expanded', 'true');
                 }
+
+                $('.js-navbar li[aria-expanded="true"]').each(function(i, item) {
+                    if (!$.contains(item, link[0])) {
+                        $(item).attr('aria-expanded', 'false');
+                    }
+                });
             });
         });
     });
 
     // iOS :hover fix
-    document.addEventListener("touchend", function() {});
+    document.addEventListener("touchend", function () {});
 
-    // EU Cookie Law Bar
-    $(window).on("load", function () {
-        var cookieBar = $('.js-cookie-bar');
-
-        if (!cookieBar.length) {
-            return;
-        }
-
-        var cookieBarClose = cookieBar.find('.cookie-bar__close');
-
-        cookieBarClose.on('click', function (event) {
-            event.preventDefault();
-            localStorage.setItem('theme-cookie-bar', true);
-            cookieBar.removeClass('is-sticky');
-        });
-
-        if (!localStorage.getItem('theme-cookie-bar')) {
-            cookieBar.addClass('is-sticky');
-        }
-    });
+     // Post image class
+     $(function ($) {
+         var contentImages = $('.post__content').find('img');
+         if(contentImages.length) {
+             var cssClasses = ['post__image--full', 'post__image--wide', 'post__image--left', 'post__image--right', 'post__image--center'];
+             contentImages.each(function(i, img) {
+                 img = $(img);
+                 if(img.parent().prop('tagName') === 'P') {
+                     cssClasses.each(function(i, cssClass) {
+                         if(img.hasClass(cssClass) && !img.parent().hasClass(cssClass)) {
+                             img.removeClass(cssClass);
+                             img.parent().addClass(cssClass);
+                         }
+                     });
+                 }
+             });
+         }
+     });
 
     // Mainmenu improvements
     $(function ($) {
@@ -105,6 +108,10 @@
     $(function ($) {
         var menu = $('.js-top');
 
+        if (!menu.length || !menu.hasClass('is-sticky')) {
+            return;
+        }
+
         var previousScroll = $(window).scrollTop();
         var menuHeight = menu.outerHeight();
         var menuTop = 0;
@@ -114,34 +121,28 @@
             var diff = currentScroll - previousScroll;
             menuTop -= diff / 2;
 
-            if(currentScroll <= 0) {
-                menuTop = 0 - currentScroll;
-            } else {
-                if (menuTop < -menuHeight) {
-                    menuTop = -menuHeight;
-                }
-
-                if (menuTop >= 0) {
-                    menuTop = 0;
-                    menu.addClass('is-sticky-on');
-
-                }
+            if (menuTop < -menuHeight) {
+                menuTop = -menuHeight;
             }
 
-            if(currentScroll <= 0) {
-                menu.removeClass('is-sticky-off');
-                menu.removeClass('is-sticky-on');
-
-            } else {
-               menu.addClass('is-sticky-off');
-
+            if (menuTop >= 0) {
+                menuTop = 0;
             }
+
+            if (currentScroll <= 100) {
+                menu.removeClass('has-bg');
+            } else {
+                menu.addClass('has-bg');
+            }
+
+            if (currentScroll <= 30) {
+                menuTop = 0;
+            }
+
+            menu.css('top', menuTop + 'px');
 
             previousScroll = currentScroll;
         });
-		
-	    $(window).trigger('scroll');
-
     });
 
     // Share buttons pop-up
@@ -179,14 +180,4 @@
             return !!popup;
         }
     });
-
-    // Post image HTML structure 
-    (function($) {
-    $('.post__image--full, .post__image--wide').each(function(i, img) {
-        img = $(img);
-        if(img.parent().prop('tagName') !== 'FIGURE') {
-            img.wrap('<figure></figure>');
-        }
-    });
-});
 })(jQuery);

@@ -1,93 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Github Pages</title>
+    <title>Github</title>
     <link href="https://dziudek.github.io/page/feed.xml" rel="self" />
     <link href="https://dziudek.github.io/page" />
-    <updated>2018-09-28T18:48:11+02:00</updated>
+    <updated>2018-09-28T19:03:32+02:00</updated>
     <author>
-        <name>Testowy</name>
+        <name>github</name>
     </author>
     <id>https://dziudek.github.io/page</id>
 
     <entry>
-        <title>Another test ;)</title>
+        <title>Lorem ipsum test</title>
         <author>
-            <name>Testowy</name>
+            <name>github</name>
         </author>
-        <link href="https://dziudek.github.io/page/another-test/"/>
-        <id>https://dziudek.github.io/page/another-test/</id>
+        <link href="https://dziudek.github.io/page/lorem-ipsum-test.html"/>
+        <id>https://dziudek.github.io/page/lorem-ipsum-test.html</id>
 
-        <updated>2017-11-01T10:52:59+01:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Lorem ipsum</title>
-        <author>
-            <name>Test author</name>
-        </author>
-        <link href="https://dziudek.github.io/page/amp-2/"/>
-        <id>https://dziudek.github.io/page/amp-2/</id>
-            <category term="woow"/>
-            <category term="rotfl"/>
-            <category term="mmmm"/>
-            <category term="lol"/>
-
-        <updated>2017-11-16T13:15:52+01:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Dolor sit amet</title>
-        <author>
-            <name>Testowy</name>
-        </author>
-        <link href="https://dziudek.github.io/page/dolor-sit-amet-2/"/>
-        <id>https://dziudek.github.io/page/dolor-sit-amet-2/</id>
-            <category term="woow"/>
-            <category term="rotfl"/>
-            <category term="lol"/>
-
-        <updated>2017-07-29T14:19:44+02:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Lorem Copy Copy</title>
-        <author>
-            <name>Testowy</name>
-        </author>
-        <link href="https://dziudek.github.io/page/lorem-copy-copy-2/"/>
-        <id>https://dziudek.github.io/page/lorem-copy-copy-2/</id>
-            <category term="woow"/>
-            <category term="rotfl"/>
-            <category term="lol"/>
-
-        <updated>2017-07-29T14:19:37+02:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Lorem Copy</title>
-        <author>
-            <name>Testowy</name>
-        </author>
-        <link href="https://dziudek.github.io/page/lorem-copy-2/"/>
-        <id>https://dziudek.github.io/page/lorem-copy-2/</id>
-
-        <updated>2017-05-22T10:05:13+02:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Lorem dolor</title>
-        <author>
-            <name>Testowy</name>
-        </author>
-        <link href="https://dziudek.github.io/page/lorem/"/>
-        <id>https://dziudek.github.io/page/lorem/</id>
-
-        <updated>2017-05-22T14:02:01+02:00</updated>
+        <updated>2018-09-28T10:17:50+02:00</updated>
             <summary></summary>
         <content></content>
     </entry>
